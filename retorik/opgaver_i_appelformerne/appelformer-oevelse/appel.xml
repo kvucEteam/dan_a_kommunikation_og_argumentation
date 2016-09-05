@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<wrap>
+
+	<spm
+	tekst="Finansministeren og jeg er overbeviste om at vi må sænke skatterne for at sætte gang i økonomien"
+	korrekt="E"
+	></spm>
+	<spm
+	tekst="Den samlede bestyrelse foreslår genvalg af Jens Pedersen som revisor"
+	korrekt="E"
+	></spm>
+	<spm
+	tekst="Jeg betaler altid til landsindsamlinger til fattige i den tredje verden, og jeg synes du skal gøre det samme."
+	korrekt="E"
+	></spm>
+
+	<spm
+	tekst="Du skal dyrke motion. Mange undersøgelser viser at det er godt for kroppen"
+	korrekt="L"
+	></spm>
+	<spm
+	tekst="Drik ikke kaffe om aftenen. Koffeinen  gør det svært at falde i søvn"
+	korrekt="L"
+	></spm>
+	<spm
+	tekst="Kog ikke æg i mikroovnen. Ægget vil eksplodere, og du vil få et kæmpearbejde med rengøring"
+	korrekt="L"
+	></spm>
+
+	<spm
+	tekst="Tak for dit store engagement i virksomheden og din utrolige vedholdenhed"
+	korrekt="P"
+	></spm>
+	<spm
+	tekst="Du kan med 100 kr. sikre at denne lille, fattige pige får lov at gå i skole."
+	korrekt="P"
+	></spm>
+	<spm
+	tekst="Som I ved, må DR lave en særlig udgave af 'Sporløs'  for at finde Lars Løkke. Gud ved om man kan få ham ud af hængekøjen igen?​"
+	korrekt="P"
+	></spm>
+</wrap>
