@@ -1,11 +1,16 @@
 <!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Introduktion til argumentation</title>
-		<meta name="author" content="ato" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" >
-		<link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="../../../library/css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <script src="../../../library/vendor_scripts.js"></script>
+        <script src="../../../library/custom_scripts.js"></script>
+        <script src="scripts.js">
+        </script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
         <style>
             img {width:100%; max-width: 809px;}
             a {color:#0071BC;}
@@ -13,19 +18,16 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="col-xs-12">
-				<div class="col-xs-12 col-sm-8">
-			        <h1>Introduktion til argumentation</h1>
-			        <p>Argumentation er når du vil overbevise eller vinde tilslutning til en påstand. Lær mere om at analysere argumentation i dette afsnit. </p>
-			        <h4>Lær, hvordan du trænger igennem med dine synspunkter​</h4>
-			        <p>​Når du bruger sproget, kommunikerer du - det uanset om du sender en sms, opdaterer din status på Facebook, uploader billeder til Instagram eller kommer med  en hurtig bemærkning i forbifarten. Du vil sige noget til nogen. Det kan du så gøre gennem en bestemt medie og på en måde der forhåbentlig hjælper dig med at få budskabet igennem. Det var det vi så på i foregående afsnit hvor vi analyserede kommunikation ved hjælp af kommunikationsmodellen.</p>
-			        <p>I det her afsnit skal vi se nærmere på en bestemt form for kommunikation nemlig når en afsender prøver at overbevise en modtager om et synspunkt. Den slags kommunikation kalder vi med et andet ord for argumentation. Ligesom du kan analysere kommunikation, kan du også analysere argumentation.</p>
-			        <p>Englænderen Stephen Toulmin har udviklet en model til at analysere argumentation. Se modellen herunder:</p>
+			<h1>Introduktion til argumentation</h1>
+			<div class="instruction"></div>
+			<div class="explanation"></div>
+            <div class="col-xs-8">
 			        <iframe src="argumentationsmodel/index.html" width="580px" height="465px" frameborder="0"></iframe>
-			        <p>Se hvordan du kan bruge modellen i praksis på <a href="#">næste side</a></p>
-			        <h4>LEKSIKONARTIKEL</h4>
-			        <p>Hvis du vil have modellen yderligere forklaret, kan du læse mere i <a href="">leksikonartiklen</a></p>
-    			</div>
+			        <script>
+            		$('.instruction').append(instruction("Her kan du blive klogere på Stephen Toulmins model, der bliver brugt til at analysere argumentation."));
+            		$('.explanation').append(explanation("I det her afsnit skal vi se nærmere på en bestemt form for kommunikation nemlig når en afsender prøver at overbevise en modtager om et synspunkt. Den slags kommunikation kalder vi med et andet ord for argumentation. Ligesom du kan analysere kommunikation, kan du også analysere argumentation."));
+            		one_line_footer();
+            		</script>
         	</div>
         </div>
     </body>
